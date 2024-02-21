@@ -1,0 +1,114 @@
+@charset " UTF-8";
+body{
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom,  darkcyan,aqua );
+   min-height: 150px;
+   padding-top: 40px;
+    
+}
+header > h1{
+    text-align: center;
+   margin-top: 20px;
+   padding: 10px;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.286);
+  font-size: 2.5em;
+
+}
+nav{
+    margin: 30px 0px 0px 0px;
+    background-color: aqua;
+    padding: 10px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.444);
+}
+ nav > a {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: rgb(25, 98, 98);
+}
+nav > a:hover{
+    background-color: rgb(106, 242, 242);
+    box-shadow: 1px 1px 0px black;
+   
+}
+
+main{
+   min-width:300px;
+   max-width:1000px;
+   background-color: white;
+   margin: auto;
+   padding: 20px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418)  ;
+   margin-bottom: 30px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+main img {
+    display: block;
+    margin: auto;
+   
+}
+
+main img.pequena{
+    max-width: 800px;
+    min-width: 350px;
+    display: block;
+    margin: auto;
+} 
+ main p{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0px ;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+ main h2{
+    margin: 10px;
+    padding: 10px;
+    
+}
+main h3{
+    margin: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right, aqua, transparent);
+}
+aside{
+    background-color: rgb(72, 236, 236);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.284);
+    margin: 10px;
+}
+aside h4{
+    background-color: rgb(3, 116, 116);
+    padding: 5px;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+aside h5{
+    padding:5px;
+}
+footer{
+    background-color: black;
+    margin-top: 10px; 
+    } 
+footer > p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
